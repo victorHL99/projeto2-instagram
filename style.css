@@ -24,6 +24,7 @@
 }
 
 
+
 /************************ CABEÇALHO **********************/
 
 header{
@@ -650,6 +651,9 @@ text-decoration: none;
     color: #c7c7c7;
 }
 
+.footer{
+    display: none;
+}
 
 /************* RESPONSIVIDADE *****************/
 
@@ -658,53 +662,24 @@ text-decoration: none;
 
 @media (max-width: 935px){
 
-    .pagina{
-        max-width: 900px;
+
+    header{
 
         display: flex;
+        align-items: center;
         justify-content: center;
-        align-items: center;
-    }
-
-    .header{
-        max-width: 900px;
-        height: auto;
-
-        display: block;
-        justify-content: space-around;
-        align-items: center;
-
-    }
-    
-    .nome-insta{
-        margin-right: 177px;
-    }
-
-    .barra-pesquisar{
-        
-            width: 215px;
-            height: 28px;
-        
-            border: 1px solid #dbdbdb;
-            box-sizing: border-box;
-            border-radius: 3px;
-        
-            background-color: rgba(250, 250, 250, 1);
-            
-            margin-right: 212px;
-        
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        
     }
 
     .conteudo-direita{
         display: none;
     }
+
+    .footer{
+        display: none;
+    }
 }
 /********* VERSÃO 614PX ************ */
-@media (max-width:615px){
+@media (max-width:614px){
 
     .pagina{
 
