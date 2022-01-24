@@ -1,0 +1,614 @@
+
+.pagina{
+
+    width: 1366px;
+    height: 100vh;
+
+
+    display: inline-flex;
+    justify-content: center;
+
+    background-color: yellow;
+
+    font-family: 'Encode Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+    overflow: auto;
+
+
+}
+
+
+/************************ CABEÇALHO **********************/
+
+header{
+
+    width: 1366px;
+    height: 54px;
+
+    background-color: #FAFAFA;
+
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(219, 219, 219, 1);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+.barrinha-esquerda{
+    display: flex;
+}
+
+.barrinha-direita{
+    margin-right: 215px;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+    background-color: white;
+}
+.logo-insta{
+    width: 22px;
+    height: 22px;
+
+    background-color: yellow;
+
+    margin-right:10px ;
+    margin-left: 215px;
+}
+
+.linha-vertical{
+    width: 1px ;
+    height: 22px;
+    background-color: rgba(219, 219, 219, 1);
+    ;
+    
+    margin-right: 10px;
+}
+
+.nome-insta{
+    width: 103px;
+    height: 29px;
+
+
+    margin-right: 214px;
+}
+
+.barra-pesquisar{
+    width: 215px;
+    height: 28px;
+
+    border: 1px solid #dbdbdb;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    background-color: rgba(250, 250, 250, 1);
+    
+    margin-right: 212px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra-pesquisar > p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+
+    line-height: 14px;
+
+    color: #979797;
+    
+}
+
+.direct{
+   width: 22px;
+   height: 22px; 
+
+   background-color: green;
+   margin-right: 20px;
+}
+
+.bussola{
+    width: 22px;
+    height: 22px; 
+
+    background-color: green;
+    margin-right: 20px;
+
+}
+
+.coracao{
+    width: 22px;
+    height: 22px; 
+
+    background-color: green;
+    margin-right: 20px;
+
+}
+
+.pessoa{
+    width: 22px;
+    height: 22px; 
+
+    background-color: green;
+
+}
+
+
+/************************ CONTEUDO **********************/
+
+
+.conteudo{
+    width: 1366px;
+    height: 100vh;
+    
+
+    background-color: black;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+
+    margin-top: 88px;
+
+}
+
+.conteudo-esquerda{
+    width: 829px;
+    height: auto;
+
+
+    background-color: red;
+    position: relative;
+
+}
+
+.separador{
+    width: 35px;
+    height: 118px;
+
+    z-index: 1;
+
+    background-color: cyan;
+
+}
+
+.conteudo-direita{
+    width: 300px;
+    height: auto;
+
+
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.story{
+    width: 614px;
+    height: 118px;
+
+    margin-left: 215px;
+    margin-bottom: 24px;
+
+    border: 1px solid blue ;
+    box-sizing: border-box;
+    border-radius: 3px;
+
+    position: absolute;
+    
+    background-color: chartreuse;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caixinha-story{
+    width: auto;
+    height: 86px;
+
+    margin-left: 18px;
+
+    display: flex;
+
+    background-color: tomato;
+}
+
+.story-icon{
+    width: 66px;
+    height: 86px;
+
+    margin-right: 14px;
+
+    background-color: white;
+
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.story-icon > p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    text-align: center;
+
+}
+
+.story1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 23px;
+    top: 19px;
+}
+
+.story2{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 102px;
+    top: 19px;
+}
+
+.story3{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 182px;
+    top: 19px;
+}
+
+.story4{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 263px;
+    top: 19px;
+}
+
+.story5{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 343px;
+    top: 19px;
+}
+
+.story6{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 423px;
+    top: 19px;
+}
+
+.story7{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 503px;
+    top: 19px;
+}
+
+.story8{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 583px;
+    top: 19px;
+}
+
+.setinha{
+    margin-right: 100px;
+    background-color: black;
+    z-index: 1;
+}
+.postagens{
+    margin-top: 142px;
+}
+
+.posts{
+    width: 614px;
+    height: 749px;
+
+    margin-top: 60px;
+    margin-left: 215px;
+
+    border: 1px solid rgba(219, 219, 219, 1);
+    background-color: orange;
+}
+
+.topo{
+   width: 614px; 
+   height: 61px;
+
+   display: inline-flex;
+   align-items: center;
+
+
+   background-color: yellow;
+}
+
+.foto{
+    width:612px ;
+    height: 612px;
+
+    background-color: yellowgreen;
+}
+
+.comentario{
+    width: 614px;
+    height: 76px;
+
+    background-color: turquoise;
+}
+
+.info-perfil{
+    width: 300px;
+    height: 600px;
+
+    margin-top: 23px;
+}
+
+.topo > img{
+    width: 32px;
+    height: 32px;
+
+    margin-left: 17px;
+    margin-right: 15px;
+}
+
+.topo > p{
+    width: 109px;
+    height: 21px;
+
+    margin-right:408px ;
+}
+
+.icones-comentarios{
+    width: 614px;
+    height: 34px;
+
+    background-color: yellow;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.curtidas{
+    width: 614px;
+    height: 42px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: violet;
+}
+
+.icones-comentarios-esquerda{
+    width:86px ;
+    height: 22px;
+
+    margin-left: 15px;
+    margin-right: 476px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.curtidas > img{
+    width: 20px;
+    height: 20px;
+
+    margin-left: 17px;
+    margin-right: 5px;
+}
+
+.curtidas > p{
+    width: 320px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+/******************* SIDEBAR **********************/
+
+.top-sidebar{
+    width: 100%;
+    height: 56px;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.top-sidebar >img{
+    margin-right: 17px;
+    margin-left: 1px;
+}
+
+.mid-sidebar{
+    width: 100%;
+    height: auto;
+
+}
+
+.mid-sidebar-superior{
+    width: 292px;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mid-sidebar-superior >p1{
+    width: 117px;
+    height: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(142, 142, 142, 1);
+    
+}
+
+.mid-sidebar-superior > p2{
+    width: 55px;
+    height: 15px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: rgba(38, 38, 38, 1);
+    
+}
+
+.mid-sidebar-meio{
+    margin-top: 17px;
+
+
+}
+
+.conjunto-sugestões1{
+    margin-top: 16px;
+    
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.nomezinho-sidebar{
+    margin-left: 11px;
+    width: 126px;
+    height: 14px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(38, 38, 38, 1);
+
+
+}
+
+.status-sidebar{
+    margin-left: 11px;
+    margin-top: 6px;
+
+    width: 143px;
+    height: 11px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(142, 142, 142, 1);
+
+
+}
+
+.seguirzinho{
+    margin-left: 70px;
+
+    width: 36px;
+    height: 11px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+
+    color: rgba(19, 158, 242, 1);
+
+}
+
+.mid-sidebar-meio > img{
+    width: 32px;
+    height: 32px;
+
+}
+
+.bot-sidebar{
+    margin-top: 33px ;
+
+    width: 100%;
+    height: 74px;
+    
+}
+
+.bot-sidebar > p{
+    width: 300px;
+    height: 42px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+
+    display: flex;
+    align-items: center;
+
+    color: #c7c7c7;
+}
