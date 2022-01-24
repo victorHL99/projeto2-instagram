@@ -331,6 +331,7 @@ text-decoration: none;
 
 .postagens{
     margin-top: 142px;
+    margin-left: 0px;
 }
 
 .posts{
@@ -702,8 +703,8 @@ text-decoration: none;
         display: none;
     }
 }
-/********* VERSÃO 600PX ************ */
-@media (max-width:600px){
+/********* VERSÃO 614PX ************ */
+@media (max-width:615px){
 
     .pagina{
 
@@ -711,18 +712,74 @@ text-decoration: none;
         height: 100vh;
 
         display: flex;
-        justify-content: center;
         align-items: center;
+
+        left: 0;
+        right: 0;
 
         overflow: auto;
     }
 
+    header{
+        display: flex;
+        align-items: center;
+    }
+
+    .nome-insta{
+        margin-right: 212px;
+    }
+
+    .logo-insta{
+        margin-right: 213px;
+    }
 
     .linha-vertical{
         display: none;
     }
-    .nome-insta{
+
+    .barra-pesquisar{
         display: none;
     }
 
+    .bussola{
+        display: none;
     }
+
+    .coracao{
+        display: none;
+    }
+
+    .pessoa{
+        display: none;
+    }
+
+    .footer{
+        width: 612px;
+        height: 54px;
+
+        left: 1px;
+        right: 0;
+        bottom: 0;
+
+        position: fixed;
+
+        background-color: rgba(255, 255, 255, 1);
+        border: 1px solid #dbdbdb;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ion-icon{
+        font-size: 22px;
+    }
+
+    .postagens{
+        margin-left: -92px;
+    }
+
+    .story{
+        margin-left: 125px;
+    }
+}
